@@ -1,0 +1,259 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Portal de Notícias</title>
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<div class="topo">
+			<div class="topoint">
+				<div class="topoleft">
+					<ul>
+						<li><a href="./" class="ativo">Home</a></li>
+						<li><a href="quem-somos">Quem Somos</a></li>
+						<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+						<li><a href="contato">Contato</a></li>
+					</ul>
+				</div><!--topoleft-->
+				<div class="toporight">
+					<input type="image" src="assets/images/lupa.png" border="0" width="26" height="26" class="lupa" />
+					<input type="text" name="busca" class="topobusca" placeholder="Busca..." />					
+					<a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/rss.png" border="0" width="26" height="26" /></a>					
+				</div><!--toporight-->
+			</div><!--topoint-->
+		</div><!--topo-->
+		<div class="topo2">
+			<div class="topo2int">
+				<div class="logo">
+					<img src="assets/images/logo.jpg" border="0" width="230" />
+				</div><!--logo-->
+				<div class="banner">
+					PUBLICIDADE728x90px
+				</div><!--banner-->
+			</div><!--topo2int-->
+		</div><!--topo2-->
+		<div class="menu">
+			<div class="menuint">
+				<img src="assets/images/menu.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()" />
+				<ul id="menu">
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="./">Economia</a></li>
+					<li>
+						<a href="./">Entretenimento</a>
+						<img src="assets/images/seta.png" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Sub menu 1</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 2</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 3</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 4</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 5</div></a>
+						</div>
+					</li>
+					<li>
+						<a href="./">Esportes</a>
+						<img src="assets/images/seta.png" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Sub menu 1</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 2</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 3</div></a>
+						</div>
+					</li>
+					<li><a href="./">Geral</a></li>
+					<li>
+						<a href="./">Notícias</a>
+						<img src="assets/images/seta.png" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Sub menu 1</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 2</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 3</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 4</div></a>
+						</div>
+					</li>
+					<li><a href="./">Polícia</a></li>
+					<li><a href="./">Videos</a></li>
+				</ul>
+			</div><!--menuint-->
+		</div><!--menu-->
+		<div class="ultimasnoticias">
+			<div class="ultimasnoticiasint">
+				<div class="ultnoticiasarea">
+					<div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+					<div class="ultnoticiasnoticia">Criador da internet teme a perda de todas as nossas memórias digitais do futuro</div>
+				</div><!--ultnoticiasarea-->
+			</div><!--ultimasnoticiasint-->
+		</div><!--ultimasnoticias-->
+		<div class="container">
+			<div class="containerint">
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidebolinhas">
+							<div class="bolinha" onclick="mudarSlide(0)"></div>
+							<div class="bolinha" onclick="mudarSlide(1)"></div>
+							<div class="bolinha" onclick="mudarSlide(2)"></div>
+							<div class="bolinha" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshowarea">
+							<div class="slide" style="background-image:url('https://www.superlutas.com.br/wp-content/uploads/2015/02/Hadouken-650x433.jpg')">
+								<div class="slideinfo">
+									<a href="https://www.superlutas.com.br/noticias/29353/lutador-canadense-inova-e-aplica-hadouken-em-evento-do-wsof/"><div class="slideinfo_titulo">Lutador canadense inova e aplica ‘Hadouken’ em evento do WSOF</div>
+									<div class="slideinfo_subtitulo">Shane Campbell imitou golpe do jogo Street Fighter momentos antes de nocautear Derek Boyle</div>
+								</div><!--slideinfo-->
+							</div><!--slide-->
+							</a>
+
+							<div class="slide" style="background-image:url('https://www.comboinfinito.com.br/principal/wp-content/uploads/2018/06/spiderman-ps4-jogamos-790x444.jpg')">
+								<div class="slideinfo">
+									<a href="https://www.comboinfinito.com.br/principal/spider-man-ps4-novo-trailer-esconde-segredos-e-referencias/"><div class="slideinfo_titulo">Spider-Man PS4: Novo trailer esconde segredos e referências</div>
+									<div class="slideinfo_subtitulo">Novo trailer de Spider-Man têm uma referência à outro exclusivo de PS4</div>
+								</div><!--slideinfo-->
+							</div><!--slide-->
+							</a>
+
+							<div class="slide" style="background-image:url('https://www.comboinfinito.com.br/principal/wp-content/uploads/2017/10/mortal-kombat-11.jpg')">
+								<div class="slideinfo">
+									<a href="https://www.comboinfinito.com.br/principal/rumor-mortal-kombat-11-tera-40-personagens-um-vilao-inesperado-e-mais/"><div class="slideinfo_titulo">Rumor: Mortal Kombat 11 terá 40 personagens, um vilão inesperado e mais!</div>
+									<div class="slideinfo_subtitulo">Mortal Kombat 11 já estaria em produção e muitos detalhes foram descobertos.</div>
+								</div><!--slideinfo-->
+							</div><!--slide-->
+							</a>
+
+							<div class="slide" style="background-image:url('https://cache.olhardigital.com.br/uploads/acervo_imagens/2018/08/20180820150905_660_420.jpg')">
+								<div class="slideinfo">
+									<a href="https://olhardigital.com.br/games-e-consoles/noticia/nvidia-revela-placas-de-video-rtx-2080-e-2080-ti-saiba-do-que-elas-sao-capazes/78062"></a><div class="slideinfo_titulo">Nvidia revela placas de vídeo RTX 2080 e 2080 Ti; saiba do que elas são capazes</div>
+									<div class="slideinfo_subtitulo">A Nvidia finalmente revelou sua nova geração de placas de vídeo.</div>
+								</div><!--slideinfo-->
+							</div><!--slide-->
+						</div><!--slideshowarea-->
+					</div><!--slideshow-->
+
+					<div class="widget">
+						<div class="widget_titulo">NOTÍCIAS</div><!--widget_titulo-->
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="assets/images/quadrilha.jpg" border="0" width="80" height="80" />
+									</div>
+									<a href="https://www.meionorte.com/blogs/efremribeiro/policia-militar-prende-traficante-com-5-quilos-de-crack-311116">
+										<div class="noticiatitulo">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de teresina</div>
+									</a> 
+									<div class="noticiainfo">500 comentários 5 curtidas</div>
+								</div>
+							</div><!--noticiaarea1-->
+							<div class="noticiaarea2">
+								<a href="http://www.google.com.br/">
+									<div class="noticiaitem">
+										<div class="noticiaimg">
+											<img src="assets/images/jogo.jpg" border="0" width="80" height="80" />
+										</div><!--noticiaimg-->
+										<div class="noticiatitulo">Em retorno ao Mineirão, Cruzeiro empata por 1 x 1 com a Caldense no Campeonato Mineiro</div>
+										<div class="noticiainfo">500 comentários</div>
+									</div><!--noticiaitem-->
+								</a>
+
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/images/morena.jpg" border="0" width="80" height="80" />
+									</div><!--noticiaimg-->
+									<div class="noticiatitulo">"Pessoas como ela são alicerces para que o melhor da moda não morra"</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div><!--noticiaitem-->
+
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/images/Vint Cerf-um dos pais da web.jpg" border="0" width="80" height="80" />
+									</div><!--noticiaimg-->
+									<div class="noticiatitulo">Criador da internet teme a perda de todas as nossas memórias digitais no futuro</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div><!--noticiaitem-->
+							</div><!--noticiaarea2-->
+
+							<div style="clear:both"></div>
+
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+
+					<div class="widget">
+						<div class="widget_titulo">ESPORTES</div><!--widget_titulo-->
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="assets/images/america.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Sem descanso! América-RN terá apenas um dia de folga no carnaval</div><!--noticiatitulo-->
+									<div class="noticiainfo">500 comentários</div><!--noticiainfo-->
+								</div><!--noticiaitem--><!--noticiabig-->
+							</div><!--noticiaarea1-->
+							
+							<div style="clear:both"></div>
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+
+				</div><!--leftside-->
+				<div class="rightside">
+					<div class="widget">
+						<div class="widget_titulo">SOCIAL</div>
+						<div class="widget_conteudo">
+							<a href=""><img src="assets/images/rss.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26"/></a>
+							<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26" /></a>
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+					<div class="widget">
+						<div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div><!--widget_titulo-->
+						<div class="widget_conteudo">
+							<div class="noticia_item">
+								<a href="https://www.meionorte.com/blogs/efremribeiro/policia-militar-prende-traficante-com-5-quilos-de-crack-311116">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de teresina</a>
+							</div><!--noticia_item-->
+							<div class="noticia_item">
+								<a href="http://www.jornaldasegunda.com.br/em-retorno-ao-mineirao-cruzeiro-empata-por-1-x-1-com-a-caldense-no-campeonato-mineiro/">Em retorno ao Mineirão, Cruzeiro empata por 1 x 1 com a Caldense no Campeonato Mineiro</a>
+							</div><!--noticia_item-->
+							<div class="noticia_item">
+								<a href="http://www.jornaldasegunda.com.br/pessoas-como-ela-sao-alicerces-para-que-o-melhor-da-moda-nao-morra/">"Pessoas como ela são alicerces para que o melhor da moda não morra"</a>
+							</div><!--noticia_item-->
+							<div class="noticia_item">
+								<a href="https://catholicus.org.br/criador-da-internet-teme-perda-de-todas-nossas-memorias-digitais-futuro/">Criador da internet teme a perda de todas as nossas memórias digitais no futuro</a>
+							</div><!--noticia_item-->
+							<div class="noticia_item">
+								<a href="http://www.jornaldasegunda.com.br/barack-obama-e-flagrado-tirando-foto-com-o-pau-de-selfie/">Barack Obama é flagrado tirando foto com o 'pau de selfie'</a>
+							</div><!--noticia_item-->
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+					<div class="widget">
+						<div class="widget_titulo">PUBLICIDADE</div><!--widget_titulo-->
+						<div class="widget_conteudo">
+							<img src="assets/images/girl.PNG" border="0" width="275" />
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+					<div class="widget">
+						<div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div><!--widget_titulo-->
+						<div class="widget_conteudo">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdankicode%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="275"
+                            style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</div><!--widget_conteudo-->
+					</div><!--widget-->
+				</div><!--rightside-->
+			</div><!--containerint-->
+		</div><!--container-->
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

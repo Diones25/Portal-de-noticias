@@ -1,0 +1,1 @@
+Site portal de notícias com html 5, css 3 e um pouco de javascript.
